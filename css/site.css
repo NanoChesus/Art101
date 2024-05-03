@@ -4,34 +4,34 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: orange;
-}
-
-/* we can have rules apply to multiple elements at the same time with commas */
-h1,h2,h3 {
-  font-family: "comic sans";
-}
-
-/* and we can have rules that overlap other rules, both take effect */
-h1 {
-  letter-spacing: 10px;
-  word-spacing: 5px;
-  font-size: 200%;
-}
-
-/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
-/* this is where i will add my paragargh*/
-#content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #000000;
-  background-color: #ba1f1f;
-}
-
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px black;
-  background-color: #1f4bba;
-}
+    background-color: orange;
+  }
+  
+  /* we can have rules apply to multiple elements at the same time with commas */
+  h1,h2,h3 {
+    font-family: "comic sans";
+  }
+  
+  /* and we can have rules that overlap other rules, both take effect */
+  h1 {
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    font-size: 200%;
+  }
+  
+  /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+  /* this is where i will add my paragargh*/
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #000000;
+    background-color: #ba1f1f;
+  }
+  
+  /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px black;
+    background-color: #1f4bba;
+  }

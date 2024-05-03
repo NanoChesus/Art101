@@ -7,3 +7,14 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+/*#car {
+  float: right;
+  margin-left: 10px
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

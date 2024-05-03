@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 7 - Functions</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -18,42 +19,65 @@
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+	
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 5 - Data Types and Variables</h1>
+			<h1>Lab 7 - Functions</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>The challenge here was to creat a website that outputs our mode of transportations: Model, color, year, and age.</p>
+					<p>working with a partner to write a function that takes user input.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>the website looks ugly with the bare bones code. So I modified the CSS code to make it look nicer. </p>
+					<p>it takes a bit of trill and error to get the syntax right and reveiwing slides </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>the assingment was simple and the code was not complicated? </p>
+					<p>the assignment went smooth it was just review that was needed. I put a lot of positive energy into this assignmnet, I like the feeling of writing functions becuase they feel like im doing some real programing. 
+					 </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<p>you can see the result right here, the webiste.</p>
+					<p> here is the chatbot that retursn your inputs but sorted</p>
 					<div id="output"></div>
-			</div>
-
-			
-			<div class=minor-section>
-				<h3>Script Output</h3>
-					<script type="text/javascript" src="js/lab.js"></script>
-					<img class= clearfix id="car" src="C:\Users\jesus\Documents\getting started\Art101\lab5\img\Honda-Civic-2018.jpg"
-					>
 			</div>
 		</section>
 		<nav id="links">
+			<div>
+				<h2>Script Output</h2>
+				<script src="js/lab.js"></script>
+			</div>
+
+			<div>
+				<h1>Chatbox</h1>
+
+				<p>Click the button to demonstrate the prompt box.</p>
+
+				<button onclick="userName()">Try it</button>
+
+				<p id="demo"></p>
+
+				<script>
+				function userName() {
+				let person = prompt("Please enter your name", "Your Name Here");
+				if (person != null) {
+					var scrambledPerson = person.split('').sort().join('');
+					document.getElementById("demo").innerHTML =
+					"Hello " + person + "! How are you today? here is your new name " 
+					 + scrambledPerson;
+				}
+				}
+				</script>
+			</div>
+			<div>
+				<p><a href = "../index.html">Home page!</a></p>
+			</div>
 			<!-- Put links to other pages (including the homepage) here. -->
 		</nav>
 	</main>
