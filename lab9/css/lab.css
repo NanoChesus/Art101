@@ -1,0 +1,14 @@
+.special {
+    background-color: #FAF3E3;
+    border: dotted 50px #EE778A;
+    color: #C74375;
+    font-weight: bold;
+}
+
+.bigger-special {
+    background-color: #FAF3E3;
+    border: dotted 50px #EE778A;
+    color: #C74375;
+    font-weight: bold;
+    font-size: x-large;
+}

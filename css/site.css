@@ -28,6 +28,13 @@ body {
     background-color: #BC2C3D;
   }
   
+   /* special content for lab 9 only  */
+  .special-content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #F8F3E6;
+    background-color: #BC2C3D;
+  }
   /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
   .minor-section {
     padding: 10px;
@@ -35,4 +42,10 @@ body {
     border: solid 1px black;
     background-color: #F8F3E6;
   }
-  //BC2C3D
+
+  .special-minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px black;
+    background-color: #F8F3E6;
+  }
