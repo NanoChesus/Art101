@@ -11,7 +11,7 @@
 
 $("#Challenge").append("<button id='Challenge-button'>Make pretty :)</button>");
 $("#Problems").append("<button id='Problems-button'>Can't see? </button>");
-$("#Results").append("<button id='Results-button'>Make Special</button><button id='unResults-button'> say bye to OIP</button>");
+$("#Results").append("<button id='Results-button'>Meet OIP</button><button id='unResults-button'> say bye to OIP</button>");
 
 // add a click listener to the challenge button
 $("#Challenge-button").click(function(){
