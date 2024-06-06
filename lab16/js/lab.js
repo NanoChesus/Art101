@@ -13,7 +13,7 @@ const proxyUrl = "https://cors-anywhere.herokuapp.com/";
 const apiUrl = "https://xkcd.com/info.0.json";
 const url = proxyUrl + apiUrl;
 
-$("#activate").click(function () {
+
     
 $.ajax({
     
@@ -29,10 +29,10 @@ $.ajax({
         var printableDate = "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
 
             $("#title").html(data.title);
-            $("#output").append("<img src=" + data.img + ">");
+            $("#output").append("<img src=" + Data.img + ">");
             $("#output").append("<p>" + data.alt + "<p>"); 
 
     })
 
-});
+
 
