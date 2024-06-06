@@ -9,9 +9,9 @@
 
 // URL = "https://xkcd.com/info.0.json"
 
-const proxyUrl = "https://cors-anywhere.herokuapp.com/";
-const apiUrl = "https://xkcd.com/info.0.json";
-const url = proxyUrl + apiUrl;
+
+URL = "https://xkcd.com/info.0.json";
+
 
 
     
