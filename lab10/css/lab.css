@@ -1,0 +1,15 @@
+/* creat a function that toggles #make-convo which leads to indentations making it look like a text convo.  */
+
+/* creat a button that creats a prompt for teh user to put input into the convo */
+
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: darkgray;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.8em;
+}

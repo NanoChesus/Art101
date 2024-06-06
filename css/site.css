@@ -4,10 +4,14 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-image: url('../img/moving-stars.gif');  
-  /* background-color: #2C2627; */
-    
-  }
+  /* The file path here should point to your gif image on your server / localhost */
+  background: url("../lab12/img/VaporWave.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+      background-position:center; 
+    background-attachment:fixed; 
+}
   
   /* we can have rules apply to multiple elements at the same time with commas */
   h1,h2,h3 {
@@ -26,6 +30,7 @@ body {
   #content {
     margin: 10px;
     padding: 10px;
+    border-radius: 15px;
     border: solid 1px #F8F3E6;
     background-color: #BC2C3D;
   }
@@ -41,6 +46,7 @@ body {
   .minor-section {
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 15px;
     border: solid 1px black;
     background-color: #F8F3E6;
   }

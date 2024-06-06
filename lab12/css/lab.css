@@ -1,0 +1,42 @@
+.text{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: solid 1px black;
+    background-color: #F8F3E6;
+}
+
+.Gryffindor-minor-section{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: solid 1px #ffd700;
+    background-color: #FF2400;
+    
+}
+
+.Slytherin-minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: solid 1px #00f;
+    background-color: #cd7f32;
+  }
+
+
+  .Hufflepuff-minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: solid 1px #008000;
+    background-color: #c0c0c0;
+  }
+
+
+  .Ravenclaw-minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: solid 1px #ffd700;
+    background-color: black;
+  }
