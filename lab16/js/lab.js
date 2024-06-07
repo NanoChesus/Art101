@@ -9,30 +9,51 @@
 
 // URL = "https://xkcd.com/info.0.json"
 
-
-URL = "https://xkcd.com/info.0.json";
-
+// const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+// const apiUrl = "https://xkcd.com/info.0.json";
+// const url = proxyUrl + apiUrl;
 
 
     
-$.ajax({
+// $.ajax({
     
-        url: URL,
+//         url: URL,
 
 
-        type: "GET",
+//         type: "GET",
         
-    })
-    .done(function(data) {
-        console.log(data);
+    // })
+    // .done(function(data) {
+    //     console.log(data);
 
-        var printableDate = "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
+    //     var printableDate = "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
 
+    //         $("#title").html(data.title);
+    //         $("#output").append("<img src=" + Data.img + ">");
+    //         $("#output").append("<p>" + data.alt + "<p>"); 
+
+    // })
+
+
+    $.ajax({
+        url: "https://xkcd.com/info.0.json",
+        data: {},
+        type: "GET",
+        dataType: "json",
+        success: function(data) {
+            console.log(data);
+    
+            var printableDate = "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
+    
             $("#title").html(data.title);
-            $("#output").append("<img src=" + Data.img + ">");
-            $("#output").append("<p>" + data.alt + "<p>"); 
-
-    })
+            $("#output").append("<img src='" + data.img + "'>");
+            $("#output").append("<p>" + data.alt + "</p>"); 
+        },
+        error: function (jqXHR, textStatus, errorThrown) { 
+            console.log("Error:", textStatus, errorThrown);
+        }
+    });
+    
 
 
 
